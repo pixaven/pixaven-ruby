@@ -36,7 +36,7 @@ Here is a quick example of uploading a local file for processing. It calls `.toJ
 ```ruby
 require "pixaven"
 
-# Specify your Pixaven API Key in the constructor
+# Pass your Pixaven API Key to the constructor
 pix = Pixaven.new("your-api-key")
 
 # Upload an image from disk, resize it to 100 x 75,
@@ -67,7 +67,7 @@ If you already have your source visuals publicly available online, we recommend 
 ```ruby
 require "pixaven"
 
-# Specify your Pixaven API Key in the constructor
+# Pass your Pixaven API Key to the constructor
 pix = Pixaven.new("your-api-key")
 
 # Provide a publicly available image URL with `.fetch()` method,
