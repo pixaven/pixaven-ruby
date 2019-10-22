@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    pixaven (1.0.0)
+    pixaven (1.0.2)
       json (~> 2.0.3)
       rest-client (~> 2.0.1)
 

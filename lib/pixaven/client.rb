@@ -83,7 +83,7 @@ module Pixaven
         # the same thing: adds operation to be performed along with its params
         # to the request data
 
-        %i(adjust auto border crop mask output padding resize response scale store filter watermark webhook cdn).each do |method|
+        %i(adjust auto border crop mask output padding resize response scale store filter watermark webhook cdn flip).each do |method|
             define_method method do |value = {}|
                 return self if value.empty? || !value.respond_to?(:merge)
                 @request.data[method] = value
